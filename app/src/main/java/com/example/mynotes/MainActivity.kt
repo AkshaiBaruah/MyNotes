@@ -40,6 +40,7 @@ class MainActivity : AppCompatActivity(), DelClicked {
             if (text.isNotEmpty()) {
                 viewModel.insertNote(Note(text))
             }
+            textBox.text = null
         }
 
     }
